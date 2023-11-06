@@ -1,3 +1,27 @@
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-image:url('../images/bg.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px 20px 50px;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  max-width: 800px;
+  padding: 30px;
+  margin: 0 0 30px;
+  border-radius: 5px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
