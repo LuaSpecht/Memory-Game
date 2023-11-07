@@ -20,6 +20,7 @@ header{
   padding: 30px;
   margin: 0 0 30px;
   border-radius: 5px;
+  font-size: 1.2em
 }
 
 .grid {
@@ -68,5 +69,12 @@ header{
 
 .disabled-card{
   filter: saturate(0);
-  opacity: 0.5;
+  opacity: 0.3;
+}
+
+@media screen and (max-width:920px) {
+  .grid {
+    grid-template-columns: repeat(5, 1fr);
+
+  }
 }
