@@ -15,7 +15,7 @@
 }
 
 .login-header img {
-  width: 100px;
+  width: 440px;
 }
 
 .login-header h1 {
@@ -60,4 +60,10 @@
 
 .login-button:disabled:hover {
   border: none;
+}
+
+@media screen and (max-width:920px) {
+  .login-header img {
+      width: 300px;
+    }
 }
